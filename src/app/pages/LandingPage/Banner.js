@@ -5,10 +5,9 @@ import Logo from "../../assets/images/job hunt.png";
 const Banner = ()=>{
     return (
         <div
-        className="main-banner wow fadeIn"
+        className="main-banner  "
         id="top"
-        data-wow-duration="1s"
-        data-wow-delay="0.5s"
+
       >
         <div className="container">
           <div className="row">
@@ -16,9 +15,8 @@ const Banner = ()=>{
               <div className="row">
                 <div className="col-lg-6 align-self-center">
                   <div
-                    className="left-content show-up header-text wow fadeInLeft"
-                    data-wow-duration="1s"
-                    data-wow-delay="1s"
+                    className="left-content show-up header-text "
+                    
                   >
                     <div className="row">
                       <div className="col-lg-12">
@@ -34,11 +32,11 @@ const Banner = ()=>{
                       </div>
                       <div className="col-lg-12 flex">
                         <div className="border-first-button scroll-to-section">
-                          <a href="https://bit.ly/owerrijobhunt" target="__blank" className="primary">Register As Student</a>
+                          <a href="/users/register"  className="primary">Register As Student</a>
                         </div>
 
                         <div className="border-first-button scroll-to-section ml-2">
-                          <a  href="https://bit.ly/owerritalenthunt" target="__blank" className="secondary" >Register As Business</a>
+                          <a  href="/companies/register"  className="secondary" >Register As Business</a>
                         </div>
                       </div>
                     </div>
@@ -46,9 +44,8 @@ const Banner = ()=>{
                 </div>
                 <div className="col-lg-6">
                   <div
-                    className="right-image wow fadeInRight"
-                    data-wow-duration="1s"
-                    data-wow-delay="0.5s"
+                    className="right-image"
+                 
                   >
                     <img src={Logo} alt="" />
                   </div>
